@@ -1,0 +1,14 @@
+.scroll-reveal {
+  margin: 20px 0;
+}
+
+.scroll-reveal-text {
+  /* Using tailwind classes on the element instead of overriding here if possible, 
+     but keeping original logic */
+  line-height: 1.5;
+  font-weight: 300; /* Matching our thin font aesthetic */
+}
+
+.word {
+  display: inline-block;
+}

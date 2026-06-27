@@ -1,0 +1,174 @@
+--- ppt/slides/slide1.xml ---
+THRONIX
+OIL & GAS SURVEILLANCE INTELLIGENCE
+Keeping wells safe when the desert turns hostile.
+A safety-first intelligence layer for ~4,000-well oil & gas fields — built for Shamal dust, 50 °C heat, sour H₂S, sand, and the moments sensors lie.
+GCC / Middle East / Africa  ·  Operations Grade
+--- ppt/slides/slide2.xml ---
+The hardest place on earth to keep a well honest
+GCC oil & gas fields run thousands of wells through conditions that break ordinary monitoring systems.
+Shamal dust storms
+40–60+ km/h winds, sub-200 m visibility — sensors degrade, comms drop.
+Extreme heat & sour gas
+50 °C heat kills gas detectors; high H₂S means errors cost lives.
+Sand & water
+Sand erodes equipment; water and gas come up mixed with the oil.
+Sensors that lie
+30–50% of sensors can be suspect at once — most 'alarms' are bad data, not bad wells.
+THRONIX — Oil & Gas Surveillance Intelligence System
+2
+--- ppt/slides/slide3.xml ---
+One intelligence layer: raw signals in, ranked decisions out
+INPUTS
+Pressures, temps, H₂S, sand, pump health, weather — every 3–5 s
+VALIDATE
+Reject spikes, frozen & stale sensors before trusting anything
+UNDERSTAND
+Well state + estimate the unmeasured oil/water/gas split
+DECIDE
+Rank by danger, cross-check neighbours, prevent alarm floods
+OUTPUTS
+Ranked, explained, actionable alerts + recommendations
+Always honest about how sure it is — and never overrides a human on anything dangerous.
+THRONIX — Oil & Gas Surveillance Intelligence System
+3
+--- ppt/slides/slide4.xml ---
+Where THRONIX is built to lead: safety & resilience
+The framework's deepest design investment is the part that matters most in GCC fields — and the part most platforms treat as an afterthought.
+H₂S never suppressed
+Life-safety gas alarms fire through any failure, with wind-plume guidance to safe muster points.
+Degrades, never blinds
+VERIFIED → DEGRADED → SURVIVAL modes keep working at 50% sensor loss instead of going dark.
+Validate before trust
+A 5-sample filter + sanity gate means a single bad reading never triggers a false shutdown.
+THRONIX — Oil & Gas Surveillance Intelligence System
+4
+--- ppt/slides/slide5.xml ---
+Capability profile vs the field
+Design-target self-assessment across the dimensions that decide GCC operations.
+THRONIX edge
+Resilience under degradation, sour-service safety, antifragile recovery.
+Incumbent edge
+Deeper ML maturity, digital-twin integration, decades of field data.
+The honest line
+THRONIX leads on design philosophy; incumbents lead because theirs are deployed and measured.
+THRONIX — Oil & Gas Surveillance Intelligence System
+5
+--- ppt/slides/slide6.xml ---
+Capability benchmarking (GCC / UAE)
+Benchmark Field
+THRONIX v3.9
+SLB DELFI
+Halliburton iEnergy
+Baker Hughes
+Emerson/AVEVA
+Aramco Digital
+GCC Desert Resilience (Shamal/Heat/Sand)
+9.6
+8.7
+8.5
+8.6
+8.2
+8.9
+High H₂S / Sour Service Safety
+9.6
+8.8
+8.9
+8.7
+9.0
+9.5
+State & Operational Awareness
+9.2
+9.4
+8.9
+9.1
+8.7
+8.9
+Baseline & Long-term Drift Handling
+9.2
+9.4
+9.1
+8.9
+8.6
+9.2
+Sabotage / Theft / Coordinated Threats
+9.1
+8.7
+8.6
+9.1
+8.8
+9.4
+Operator Trust / False Alarm Control
+8.8
+9.1
+8.7
+8.9
+8.8
+8.6
+Predictive / Prescriptive Maturity
+9.1
+9.4
+9.1
+9.0
+8.7
+9.2
+GCC/UAE Regional Average
+9.23
+9.07
+8.83
+8.90
+8.69
+9.10
+Self-assessment — design targets, not deployed measurements. 
+Competitor scores are informed estimates from public capability descriptions; THRONIX scores reflect framework design intent pending validation. 
+Numbers become real only when the system runs.
+THRONIX — Oil & Gas Surveillance Intelligence System
+6
+--- ppt/slides/slide7.xml ---
+Why THRONIX earns those marks
+Safety as architecture
+H₂S, integrity & pressure alarms are constitutional — no learning loop, mode, or grace window can ever silence them.
+Antifragile by design
+Split degradation modes, edge survival during comms loss, and a SAFE CORE that runs whole even when everything else is pruned.
+Fleet-aware reasoning
+Cross-well graph intelligence separates a real well event from weather, a manifold problem, or coordinated sabotage.
+Honest intelligence
+Calibrated confidence on every output, counterfactual explanations, and a human signature on every irreversible action.
+THRONIX — Oil & Gas Surveillance Intelligence System
+7
+--- ppt/slides/slide8.xml ---
+Oil and gas come up the same pipe — so we watch both
+Most of the sensor suite already serves every phase. Gas leaves its own fingerprint on pressure & temperature; only oil-vs-water separation needs a dedicated meter.
+80%
+reusable
+Gas — already covered
+Pressure, temperature & choke carry the gas signal; gas flow tracks oil × GOR with no new hardware.
+Water — one sensor away
+Pressure can't tell oil from water; a water-cut meter unlocks the split cleanly.
+Sour-gas safety scales up
+Gas-heavy wells are often sourer — H₂S logic matters more, and it's already first-class.
+THRONIX — Oil & Gas Surveillance Intelligence System
+8
+--- ppt/slides/slide9.xml ---
+Where we are — and the path to proof
+A complete, design-validated specification. The next milestone turns design targets into measured results.
+NOW
+Design complete
+Full safety, degradation, fleet & intelligence spec — validated against critique.
+NEXT
+Replay validation
+Run triggers on labelled datasets → first measured precision, recall & lead-time.
+THEN
+Shadow pilots
+10–15 wells, sour + sweet mix; measure false-alarm rate & operator trust.
+SCALE
+Certified deployment
+SCADA/ESD integration on the certified safety path; fleet rollout.
+We don't claim measured superiority we haven't earned. We claim the strongest safety-first design — and a clear, fast path to prove it.
+THRONIX — Oil & Gas Surveillance Intelligence System
+9
+--- ppt/slides/slide10.xml ---
+Built to survive the worst day in the field.
+Let's run THRONIX against your toughest well data and show you the numbers — honestly.
+Request a pilot conversation
+THRONIX — Oil & Gas Surveillance Intelligence System  ·  GCC / Middle East / Africa Operations Grade
