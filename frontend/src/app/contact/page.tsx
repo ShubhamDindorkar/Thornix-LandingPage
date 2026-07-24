@@ -55,19 +55,6 @@ export default function Contact() {
             </div>
             
             <div className="flex-1 flex flex-col sm:flex-row gap-6 w-full">
-              {/* Box 1 */}
-              <div className="flex-1 bg-[#111] text-white border border-white/10 p-10 rounded-3xl flex flex-col justify-between min-h-[220px] shadow-2xl hover:-translate-y-1 transition-transform group relative overflow-hidden">
-                <div className="absolute inset-0 bg-gradient-to-br from-[#2b7fff]/0 to-[#2b7fff]/5 transition-opacity"></div>
-                <div className="relative z-10">
-                  <div className="text-xs font-mono tracking-widest uppercase mb-4 text-white/40 group-hover:text-[#2b7fff] transition-colors">NEW BUSINESS</div>
-                  <div className="text-xl font-light mb-8">sales@thronix.com</div>
-                </div>
-                <div className="text-sm font-light text-white/60 relative z-10 leading-relaxed">
-                  Interested in Thronix for your field? Reach out to discuss pilot programs and deployment.
-                </div>
-              </div>
-              
-              {/* Box 2 */}
               <div className="flex-1 bg-white text-black border border-black/10 p-10 rounded-3xl flex flex-col justify-between min-h-[220px] shadow-lg hover:-translate-y-1 transition-transform group">
                 <div>
                   <div className="text-xs font-mono tracking-widest uppercase mb-4 text-gray-400 group-hover:text-black transition-colors">HELP & SUPPORT</div>

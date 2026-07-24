@@ -272,7 +272,7 @@ export default function Home() {
       </section>
 
       {/* Section 4 (Black Background) */}
-      <section className="w-full py-10 md:py-14 bg-[#0a0a0a] border-b border-white/10 text-white overflow-hidden">
+      <section className="w-full py-16 md:py-24 bg-[#0a0a0a] border-b border-white/10 text-white overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 md:mb-12 max-w-6xl mx-auto">
             <div className="w-full lg:w-1/2">
@@ -336,7 +336,7 @@ export default function Home() {
           </p>
           <Link
             href="/contact"
-            className="inline-flex h-12 items-center justify-center rounded-md bg-[#2b7fff] px-10 py-3 text-base font-medium text-white transition-all hover:bg-[#1a6aeb] hover:scale-105 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#2b7fff] focus-visible:ring-offset-2"
+            className="inline-flex h-12 items-center justify-center rounded-md bg-black px-10 py-3 text-base font-medium text-white transition-all hover:bg-[#222] hover:scale-105 hover:shadow-xl focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-black focus-visible:ring-offset-2"
           >
             Request a pilot conversation
           </Link>
