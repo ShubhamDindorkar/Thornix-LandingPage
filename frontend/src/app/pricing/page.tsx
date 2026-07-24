@@ -3,8 +3,8 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function Pricing() {
   return (
-    <div className="flex flex-col w-full min-h-[calc(100vh-4rem-240px)] bg-[#f4f4f0]">
-      <section className="relative w-full overflow-hidden py-16 md:py-32">
+    <div className="flex flex-col w-full min-h-[calc(100vh-4rem-240px)] bg-[#f7f9fc]">
+      <section className="relative w-full overflow-hidden py-10 md:py-14">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10 flex flex-col items-center">
           <ScrollReveal as="div" textClassName="text-xs font-mono font-bold uppercase tracking-widest text-gray-500 mb-6 block">
             [PRICING MODELS]
@@ -24,7 +24,7 @@ export default function Pricing() {
         </div>
       </section>
 
-      <section className="w-full pb-24 md:pb-32">
+      <section className="w-full pb-12 md:pb-16">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto items-stretch">
             {/* Pilot Scale (Light Theme) */}
@@ -54,8 +54,8 @@ export default function Pricing() {
 
             {/* Full Scale (Dark Theme) */}
             <div className="flex flex-col p-10 border border-white/10 bg-[#111] rounded-3xl relative shadow-2xl group hover:-translate-y-2 transition-all duration-300 overflow-hidden">
-              <div className="absolute inset-0 bg-gradient-to-br from-lime-500/0 to-lime-500/5 transition-opacity"></div>
-              <div className="absolute top-8 right-8 bg-lime-400 text-black text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-widest shadow-[0_0_15px_rgba(163,230,53,0.4)]">
+              <div className="absolute inset-0 bg-gradient-to-br from-[#2b7fff]/0 to-[#2b7fff]/5 transition-opacity"></div>
+              <div className="absolute top-8 right-8 bg-[#2b7fff] text-white text-[10px] font-bold px-3 py-1.5 rounded-full uppercase tracking-widest shadow-[0_0_15px_rgba(43,127,255,0.4)]">
                 Enterprise
               </div>
               
@@ -77,7 +77,7 @@ export default function Pricing() {
                 
                 <Link
                   href="/contact"
-                  className="inline-flex h-14 w-full items-center justify-center rounded-xl bg-lime-400 px-8 py-3 text-sm font-bold tracking-wide text-black transition-all hover:bg-lime-500 shadow-[0_0_20px_rgba(163,230,53,0.3)] hover:shadow-[0_0_30px_rgba(163,230,53,0.5)]"
+                  className="inline-flex h-14 w-full items-center justify-center rounded-xl bg-[#2b7fff] px-8 py-3 text-sm font-bold tracking-wide text-white transition-all hover:bg-[#1a6aeb] shadow-[0_0_20px_rgba(43,127,255,0.3)] hover:shadow-[0_0_30px_rgba(43,127,255,0.5)]"
                 >
                   CONTACT SALES
                 </Link>
@@ -93,7 +93,7 @@ export default function Pricing() {
 function PricingFeature({ text, light }: { text: string, light: boolean }) {
   return (
     <li className="flex items-start">
-      <div className={`mt-0.5 rounded-full p-1 mr-4 flex-shrink-0 ${light ? 'bg-black/5 text-black' : 'bg-lime-400/10 text-lime-400'}`}>
+      <div className={`mt-0.5 rounded-full p-1 mr-4 flex-shrink-0 ${light ? 'bg-black/5 text-black' : 'bg-[#2b7fff]/10 text-[#2b7fff]'}`}>
         <svg className="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth="3">
           <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7"></path>
         </svg>

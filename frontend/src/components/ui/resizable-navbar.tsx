@@ -236,9 +236,14 @@ export const NavbarLogo = () => {
   return (
     <Link
       href="/"
-      className="relative z-20 flex items-center space-x-2 py-1 text-sm font-normal"
+      className="relative z-20 flex items-center py-1"
     >
-      <span className="font-medium text-white text-xl tracking-tight">Thronix</span>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src="/image.png"
+        alt="Thronix AI"
+        className="h-8 w-auto object-contain"
+      />
     </Link>
   );
 };
@@ -265,7 +270,7 @@ export const NavbarButton = ({
 
   const variantStyles = {
     primary:
-      "bg-lime-400 text-black hover:bg-lime-500 font-bold tracking-widest",
+      "bg-[#2b7fff] text-white hover:bg-[#1a6aeb] font-bold tracking-widest",
     secondary: "bg-transparent hover:bg-white/10 text-white",
     dark: "bg-black text-white hover:bg-black/90",
     gradient:

@@ -4,12 +4,12 @@ import ScrollReveal from '@/components/ui/ScrollReveal';
 
 export default function About() {
   return (
-    <div className="flex flex-col w-full bg-[#f4f4f0]">
+    <div className="flex flex-col w-full bg-[#f7f9fc]">
       
       {/* Header Section (Image 1 Layout) */}
-      <section className="w-full pt-24 md:pt-32 pb-12 md:pb-16">
+      <section className="w-full pt-20 md:pt-24 pb-8 md:pb-10">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row justify-between items-start gap-8 mb-16 max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-8 mb-10 max-w-7xl mx-auto">
             <div className="lg:w-1/2">
                <ScrollReveal as="div" textClassName="text-xs font-mono font-bold uppercase tracking-widest text-gray-500 mb-6 block">
                  [OUR MISSION]
@@ -29,7 +29,7 @@ export default function About() {
                </p>
                <Link
                  href="/contact"
-                 className="inline-flex h-12 items-center justify-center rounded-md bg-lime-400 px-8 py-3 text-xs font-bold tracking-widest text-black transition-all hover:bg-lime-500 hover:scale-105"
+                 className="inline-flex h-12 items-center justify-center rounded-md bg-[#2b7fff] px-8 py-3 text-xs font-bold tracking-widest text-white transition-all hover:bg-[#1a6aeb] hover:scale-105"
                >
                  OUR EXPERTISE
                </Link>
@@ -45,7 +45,7 @@ export default function About() {
              
              {/* Middle Panel - Dark Card */}
              <div className="rounded-xl bg-[#111] p-10 flex flex-col justify-center border border-white/10 relative overflow-hidden h-64 md:h-full group shadow-lg hover:shadow-2xl transition-all w-full md:w-auto md:flex-[1.5] shrink-0">
-               <div className="absolute inset-0 bg-gradient-to-b from-black/0 to-lime-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+               <div className="absolute inset-0 bg-gradient-to-b from-black/0 to-blue-900/20 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                <ScrollReveal as="div" textClassName="text-[10px] font-mono font-bold uppercase tracking-widest text-gray-400 mb-6 relative z-10">
                  UNCOMPROMISING STANDARDS
                </ScrollReveal>
@@ -66,7 +66,7 @@ export default function About() {
       </section>
 
       {/* The Challenge & Approach (Image 2 Top Layout) */}
-      <section className="w-full py-12 md:py-24 bg-white border-y border-gray-200">
+      <section className="w-full py-10 md:py-14 bg-white border-y border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 max-w-7xl mx-auto items-center">
             {/* Left Square Image */}
@@ -109,11 +109,11 @@ export default function About() {
       </section>
 
       {/* Team / Leadership Section (Based on Image Reference) */}
-      <section className="w-full relative overflow-hidden bg-[#f4f4f0] py-16 md:py-32 border-t border-black/10">
+      <section className="w-full relative overflow-hidden bg-[#f7f9fc] py-10 md:py-14 border-t border-black/10">
          <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl">
             
             {/* Header Area */}
-            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-12 md:mb-20">
+            <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-8 md:mb-12">
                <div className="md:w-1/2">
                  <ScrollReveal as="div" textClassName="text-xs font-mono font-bold uppercase tracking-widest text-gray-500 mb-6 block">
                    [LEADERSHIP]
@@ -135,25 +135,25 @@ export default function About() {
             {/* Grid Area */}
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                <TeamMemberCard 
-                 img="/1.jpg"
+                 img="/team-ai-1.png"
                  role="FOUNDER & CEO"
                  name="Daniel Rothman"
                  desc="Daniel brings 16 years of operations experience, helping clients streamline networks, cut costs, and implement scalable technologies across complex operations."
                />
                <TeamMemberCard 
-                 img="/2.jpg"
+                 img="/team-ai-2.png"
                  role="DIRECTOR"
                  name="Dianne Walsh"
                  desc="Dianne specializes in emissions modeling and ESG alignment, helping clients embed measurable sustainability across logistics, agriculture, and industrial networks."
                />
                <TeamMemberCard 
-                 img="/3.jpg"
+                 img="/team-ai-3.png"
                  role="CHIEF OF OPERATIONS"
                  name="Luca Morrison"
                  desc="Luca designs data ecosystems that unify supply chain insight, real-time reporting, and predictive analytics—turning messy systems into actionable intelligence."
                />
                <TeamMemberCard 
-                 img="/4.jpg"
+                 img="/team-ai-4.png"
                  role="SALES DIRECTOR"
                  name="Sienna Rae"
                  desc="Sienna guides clients from discovery through delivery, translating technical strategy into clear action across cross-functional teams and fast-moving operational environments."
@@ -168,7 +168,7 @@ export default function About() {
 function Pill({ icon, text }: { icon: React.ReactNode, text: string }) {
   return (
     <div className="flex items-center gap-3 bg-[#111] hover:bg-[#222] transition-colors rounded-full px-5 py-3 border border-white/10 group cursor-default shadow-md hover:shadow-lg">
-      <div className="text-lime-400 group-hover:scale-110 transition-transform">
+      <div className="text-[#2b7fff] group-hover:scale-110 transition-transform">
         {icon}
       </div>
       <span className="text-xs font-medium text-white">{text}</span>

@@ -7,6 +7,10 @@
   --secondary: #ffffff;
   --border: #e5e5e5;
   --muted: #a3a3a3;
+  --accent: #2b7fff;
+  --accent-hover: #1a6aeb;
+  --accent-glow: rgba(43, 127, 255, 0.45);
+  --surface: #f7f9fc;
 }
 
 @theme inline {
@@ -16,6 +20,9 @@
   --color-secondary: var(--secondary);
   --color-border: var(--border);
   --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-hover: var(--accent-hover);
+  --color-surface: var(--surface);
   --font-sans: var(--font-inter);
 }
 
@@ -35,6 +42,31 @@ body {
   color: var(--foreground);
   font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   font-weight: 300; /* Thinner apple font aesthetic */
+}
+
+/* Custom scrollbar — Thronix brand */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: var(--accent) #0a0a0a;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #2b7fff 0%, #1a6aeb 100%);
+  border-radius: 999px;
+  border: 2px solid #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-hover);
 }
 
 /* --- Performance Utilities --- */
