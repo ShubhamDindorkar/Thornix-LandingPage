@@ -81,8 +81,8 @@ export default function Home() {
       {/* Section 1 (Light Background) */}
       <section id="the-hardest-place" className="w-full py-10 md:py-14 bg-[#f7f9fc] border-b border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 md:mb-12 max-w-6xl mx-auto">
-            <div className="md:w-1/2">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 md:mb-12 max-w-6xl mx-auto">
+            <div className="w-full lg:w-1/2">
                <ScrollReveal as="div" textClassName="text-sm font-mono font-bold uppercase tracking-widest text-gray-500 mb-3 block">
                  [OUR CHALLENGES]
                </ScrollReveal>
@@ -95,7 +95,7 @@ export default function Home() {
                  The hardest place on earth to keep a well honest.
                </ScrollReveal>
             </div>
-            <div className="md:w-1/3 pt-1 md:pt-8">
+            <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
                  GCC oil & gas fields run thousands of wells through conditions that break ordinary monitoring systems.
                </p>
@@ -139,8 +139,8 @@ export default function Home() {
       {/* Section 2 (Intelligence Layer) */}
       <section className="w-full py-10 md:py-14 bg-[#f7f9fc] border-b border-gray-200 text-black overflow-hidden">
         <div className="w-full max-w-[1400px] mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-10 max-w-7xl mx-auto">
-            <div className="md:w-1/2">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 lg:mb-10 max-w-7xl mx-auto">
+            <div className="w-full lg:w-1/2">
                <ScrollReveal as="div" textClassName="text-sm font-mono font-bold uppercase tracking-widest text-gray-500 mb-3 block">
                  [INTELLIGENCE LAYER]
                </ScrollReveal>
@@ -153,7 +153,7 @@ export default function Home() {
                  Raw signals in, ranked decisions out.
                </ScrollReveal>
             </div>
-            <div className="md:w-1/3 pt-1 md:pt-8">
+            <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
                  Always honest about how sure it is, and never overrides a human on anything dangerous.
                </p>
@@ -161,8 +161,8 @@ export default function Home() {
           </div>
           
           {/* Linear Flowchart */}
-          <div className="relative max-w-7xl mx-auto w-full pb-6">
-            <div className="flex flex-col lg:flex-row justify-between items-center lg:items-stretch py-4 relative px-4 gap-5">
+          <div className="relative max-w-7xl mx-auto w-full">
+            <div className="flex flex-col lg:flex-row justify-between items-stretch lg:items-stretch py-2 lg:py-4 relative gap-3 lg:gap-5">
               
               {/* Horizontal Connecting Line (Desktop) */}
               <div className="hidden lg:block absolute top-1/2 left-8 right-8 h-px z-0 -translate-y-1/2 pointer-events-none">
@@ -202,8 +202,8 @@ export default function Home() {
       {/* Section 3 */}
       <section className="w-full py-10 md:py-14 bg-[#f7f9fc] border-b border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 md:mb-12 max-w-6xl mx-auto">
-            <div className="md:w-1/2">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 md:mb-12 max-w-6xl mx-auto">
+            <div className="w-full lg:w-1/2">
                <ScrollReveal as="div" textClassName="text-sm font-mono font-bold uppercase tracking-widest text-gray-500 mb-3 block">
                  [OUR ARCHITECTURE]
                </ScrollReveal>
@@ -216,7 +216,7 @@ export default function Home() {
                  Why THRONIX earns those marks.
                </ScrollReveal>
             </div>
-            <div className="md:w-1/3 pt-1 md:pt-8">
+            <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
                   The framework&apos;s deepest design investment is the part that matters most in GCC fields — and the part most platforms treat as an afterthought.
                </p>
@@ -274,8 +274,8 @@ export default function Home() {
       {/* Section 4 (Black Background) */}
       <section className="w-full py-10 md:py-14 bg-[#0a0a0a] border-b border-white/10 text-white overflow-hidden">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8 md:mb-12 max-w-6xl mx-auto">
-            <div className="md:w-1/2">
+          <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 md:mb-12 max-w-6xl mx-auto">
+            <div className="w-full lg:w-1/2">
                <ScrollReveal as="div" textClassName="text-sm font-mono font-bold uppercase tracking-widest text-white/50 mb-3 block">
                  [ROADMAP]
                </ScrollReveal>
@@ -288,7 +288,7 @@ export default function Home() {
                  Where we are and the path to proof.
                </ScrollReveal>
             </div>
-            <div className="md:w-1/3 pt-1 md:pt-8">
+            <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-white/70 font-light leading-relaxed">
                   We don&apos;t claim measured superiority we haven&apos;t earned. We claim the strongest safety-first design and a clear, fast path to prove it.
                </p>
@@ -381,15 +381,15 @@ interface WorkflowCardProps {
 
 function WorkflowCard({ step, title, desc, img }: WorkflowCardProps) {
   return (
-    <div className="relative w-full max-w-[320px] bg-black rounded-2xl shadow-lg transform transition-all hover:-translate-y-2 hover:shadow-2xl overflow-hidden flex flex-col h-[300px] group border border-black/10">
+    <div className="relative w-full lg:max-w-[320px] bg-black rounded-2xl shadow-lg transform transition-all hover:-translate-y-2 hover:shadow-2xl overflow-hidden flex flex-col h-[200px] sm:h-[240px] lg:h-[300px] group border border-black/10">
       {img && (
-        <Image src={img} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-80 group-hover:opacity-100" alt={title} />
+        <Image src={img} fill sizes="(max-width: 1024px) 100vw, 33vw" className="object-cover transition-transform duration-1000 group-hover:scale-110 opacity-80 group-hover:opacity-100" alt={title} />
       )}
       <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/10"></div>
       
-      <div className="relative z-10 flex flex-col justify-end h-full p-5 text-left">
-        <div className="text-[#2b7fff] font-mono text-xs font-bold tracking-widest mb-2 border border-[#2b7fff]/30 bg-[#2b7fff]/10 px-2 py-1 rounded w-fit">{step}</div>
-        <div className="text-2xl font-light text-white mb-2 leading-tight">{title}</div>
+      <div className="relative z-10 flex flex-col justify-end h-full p-4 sm:p-5 text-left">
+        <div className="text-[#2b7fff] font-mono text-xs font-bold tracking-widest mb-1.5 border border-[#2b7fff]/30 bg-[#2b7fff]/10 px-2 py-1 rounded w-fit">{step}</div>
+        <div className="text-xl sm:text-2xl font-light text-white mb-1.5 leading-tight">{title}</div>
         <div className="text-sm text-white/70 font-light leading-relaxed">{desc}</div>
       </div>
     </div>
