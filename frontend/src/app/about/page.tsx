@@ -137,14 +137,16 @@ export default function About() {
                <TeamMemberCard 
                  img="/team-ai-1.png"
                  role="FOUNDER & CEO"
-                 name="Daniel Rothman"
-                 desc="Daniel brings 16 years of operations experience, helping clients streamline networks, cut costs, and implement scalable technologies across complex operations."
+                 name="Mahebub Sheikh"
+                 email="shaikh@thronixai.com"
+                 desc="Leading thronix AI with a focus on AI-powered industrial asset monitoring, safety-first architecture, and real-world deployment in demanding oil & gas environments."
                />
                <TeamMemberCard 
                  img="/team-ai-2.png"
                  role="DIRECTOR"
-                 name="Dianne Walsh"
-                 desc="Dianne specializes in emissions modeling and ESG alignment, helping clients embed measurable sustainability across logistics, agriculture, and industrial networks."
+                 name="Pooja Suryavanshi"
+                 email="plsuryavanshi@thronixai.com"
+                 desc="Driving strategy and delivery for thronix AI — aligning product, operations, and client outcomes across industrial monitoring deployments."
                />
                <TeamMemberCard 
                  img="/team-ai-3.png"
@@ -181,9 +183,10 @@ interface TeamMemberCardProps {
   role: string;
   name: string;
   desc: string;
+  email?: string;
 }
 
-function TeamMemberCard({ img, role, name, desc }: TeamMemberCardProps) {
+function TeamMemberCard({ img, role, name, desc, email }: TeamMemberCardProps) {
   return (
     <div className="flex flex-col group h-full">
       <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden mb-6 bg-gray-200 border border-black/5 shadow-sm">
@@ -191,7 +194,15 @@ function TeamMemberCard({ img, role, name, desc }: TeamMemberCardProps) {
       </div>
       <div className="text-[10px] font-mono font-bold tracking-widest uppercase text-gray-500 mb-3">{role}</div>
       <div className="text-2xl font-light text-black mb-3">{name}</div>
-      <div className="text-sm text-gray-600 font-light leading-relaxed mb-6 flex-1">{desc}</div>
+      <div className="text-sm text-gray-600 font-light leading-relaxed mb-4 flex-1">{desc}</div>
+      {email && (
+        <a
+          href={`mailto:${email}`}
+          className="text-sm text-[#2b7fff] hover:underline font-medium mb-6 break-all"
+        >
+          {email}
+        </a>
+      )}
       
       {/* Social Icons */}
       <div className="flex items-center gap-4 text-gray-400 mt-auto pb-4">
