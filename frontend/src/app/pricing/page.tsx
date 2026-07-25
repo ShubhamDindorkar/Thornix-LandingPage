@@ -19,7 +19,7 @@ export default function Pricing() {
             Scale with Confidence
           </ScrollReveal>
           <ScrollReveal as="p" textClassName="text-lg md:text-xl text-gray-700 font-light max-w-2xl mx-auto leading-relaxed">
-            From focused pilot programs to full-scale regional deployment, Thronix offers pricing models tailored to your operational footprint.
+            From focused pilot programs to full-scale regional deployment, thronix AI offers pricing models tailored to your operational footprint.
           </ScrollReveal>
         </div>
       </section>
@@ -37,10 +37,10 @@ export default function Pricing() {
               </div>
               
               <ul className="space-y-5 mb-10 flex-1">
-                <PricingFeature text="Up to 15 wells monitored" light={true} />
+                <PricingFeature text="Focused pilot deployment" light={true} />
                 <PricingFeature text="3-second high-frequency cadence" light={true} />
                 <PricingFeature text="Full T1/T2/T3 Trigger Architecture" light={true} />
-                <PricingFeature text="~432K rows/day TimescaleDB capacity" light={true} />
+                <PricingFeature text="High-frequency TimescaleDB capacity" light={true} />
                 <PricingFeature text="Standard alerting & reporting" light={true} />
               </ul>
               
@@ -68,9 +68,9 @@ export default function Pricing() {
                 </div>
                 
                 <ul className="space-y-5 mb-10 flex-1">
-                  <PricingFeature text="Scale to ~4,000 wells" light={false} />
-                  <PricingFeature text="Multi-region profile management" light={false} />
-                  <PricingFeature text="~38.4M rows/day ingestion capacity" light={false} />
+                  <PricingFeature text="Full-scale fleet deployment" light={false} />
+                  <PricingFeature text="Multi-region profile management (incl. Niger / deep water)" light={false} />
+                  <PricingFeature text="Enterprise-grade ingestion capacity" light={false} />
                   <PricingFeature text="Kafka integration for enterprise queueing" light={false} />
                   <PricingFeature text="Custom SLA & dedicated support" light={false} />
                 </ul>

@@ -9,8 +9,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Thronix | Real-Time Industrial Asset Monitoring",
-  description: "Real-time industrial asset monitoring platform for oil and gas wells.",
+  title: "thronix AI | AI-Powered Real-Time Industrial Asset Monitoring",
+  description: "AI-powered real-time industrial asset monitoring for oil and gas — including Niger deep-water operations. AI recommends, humans decide.",
 };
 
 import Navbar from "@/components/layout/Navbar";

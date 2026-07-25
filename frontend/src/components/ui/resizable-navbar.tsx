@@ -241,7 +241,7 @@ export const NavbarLogo = () => {
       {/* eslint-disable-next-line @next/next/no-img-element */}
       <img
         src="/image.png"
-        alt="Thronix AI"
+        alt="thronix AI"
         className="h-8 w-auto object-contain"
       />
     </Link>

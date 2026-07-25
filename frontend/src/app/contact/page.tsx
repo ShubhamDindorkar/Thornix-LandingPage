@@ -38,7 +38,7 @@ export default function Contact() {
             Start the Conversation
           </ScrollReveal>
           <ScrollReveal as="p" textClassName="text-lg md:text-xl font-light text-white/70 max-w-2xl mx-auto leading-relaxed">
-            We help operators secure their fields through safety-first intelligence, extreme resilience, and deep industry expertise.
+            We help operators secure their fields through AI-powered, safety-first intelligence — AI recommends, humans decide.
           </ScrollReveal>
         </div>
       </section>

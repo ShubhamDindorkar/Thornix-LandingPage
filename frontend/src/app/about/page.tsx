@@ -88,10 +88,10 @@ export default function About() {
                  Architecting Safety for Critical Operations.
                </ScrollReveal>
                <p className="text-base text-gray-700 font-light leading-relaxed mb-6">
-                  In oil and gas operations, missing a critical alert isn&apos;t just an operational issue—it&apos;s a life safety issue. H₂S gas leaks, well kicks, and blowouts require immediate, unquestionable detection.
+                  In oil and gas operations — including Niger deep-water fields — missing a critical alert isn&apos;t just an operational issue—it&apos;s a life safety issue. H₂S gas leaks, well kicks, and blowouts require immediate, unquestionable detection.
                </p>
                <p className="text-base text-gray-700 font-light leading-relaxed mb-10">
-                  Traditional SCADA systems poll data too slowly and alarm indiscriminately, creating &apos;alarm floods&apos; that cause operators to ignore real emergencies. We built Thronix from the ground up using strict EEMUA 191 standards.
+                  Traditional SCADA systems poll data too slowly and alarm indiscriminately, creating &apos;alarm floods&apos; that cause operators to ignore real emergencies. We built thronix AI from the ground up using strict EEMUA 191 standards.
                </p>
                
                {/* Grid of Pills for Approach */}
@@ -119,7 +119,7 @@ export default function About() {
                    [LEADERSHIP]
                  </ScrollReveal>
                  <ScrollReveal as="h2" baseOpacity={0} enableBlur={true} textClassName="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-black leading-tight">
-                   Our Engineering Leadership.
+                   Our AI & Engineering Leadership.
                  </ScrollReveal>
                </div>
                <div className="md:w-1/2 md:pt-12">
