@@ -44,7 +44,7 @@ body {
   font-weight: 300; /* Thinner apple font aesthetic */
 }
 
-/* Custom scrollbar — thronix AI brand */
+/* Custom scrollbar — Thronix AI brand */
 html {
   scrollbar-width: thin;
   scrollbar-color: var(--accent) #0a0a0a;

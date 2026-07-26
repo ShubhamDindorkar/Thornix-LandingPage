@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="flex flex-col space-y-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src="/image.png" alt="thronix AI" className="h-8 w-auto object-contain self-start" />
+            <img src="/image.png" alt="Thronix AI" className="h-8 w-auto object-contain self-start" />
             <p className="text-sm text-white/50">
               AI-powered real-time industrial asset monitoring — preventing catastrophic failures. AI recommends, humans decide.
             </p>
@@ -31,7 +31,7 @@ export default function Footer() {
         </div>
         <div className="mt-8 border-t border-white/10 pt-6 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-white/40">
-            &copy; {new Date().getFullYear()} thronix AI. All rights reserved.
+            &copy; {new Date().getFullYear()} Thronix AI. All rights reserved.
           </p>
         </div>
       </div>

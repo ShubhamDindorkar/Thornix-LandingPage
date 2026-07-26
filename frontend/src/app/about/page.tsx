@@ -20,7 +20,7 @@ export default function About() {
                  enableBlur={true}
                  textClassName="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-black leading-tight"
                >
-                 Establish the single source of truth.
+                 Establish The Single Source Of Truth.
                </ScrollReveal>
             </div>
             <div className="lg:w-1/3 pt-2 lg:pt-12">
@@ -85,13 +85,13 @@ export default function About() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black mb-8 leading-tight"
                >
-                 Architecting Safety for Critical Operations.
+                 Architecting Safety For Critical Operations.
                </ScrollReveal>
                <p className="text-base text-gray-700 font-light leading-relaxed mb-6">
-                  In oil and gas operations — including Niger deep-water fields — missing a critical alert isn&apos;t just an operational issue—it&apos;s a life safety issue. H₂S gas leaks, well kicks, and blowouts require immediate, unquestionable detection.
+                  In oil and gas operations — from GCC fields to Niger deep-water — missing a critical alert isn&apos;t just an operational issue—it&apos;s a life safety issue. H₂S gas leaks, well kicks, and blowouts require immediate, unquestionable detection.
                </p>
                <p className="text-base text-gray-700 font-light leading-relaxed mb-10">
-                  Traditional SCADA systems poll data too slowly and alarm indiscriminately, creating &apos;alarm floods&apos; that cause operators to ignore real emergencies. We built thronix AI from the ground up using strict EEMUA 191 standards.
+                  Traditional SCADA systems poll data too slowly and alarm indiscriminately, creating &apos;alarm floods&apos; that cause operators to ignore real emergencies. We built Thronix AI from the ground up using strict EEMUA 191 standards.
                </p>
                
                {/* Grid of Pills for Approach */}
@@ -136,17 +136,17 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                <TeamMemberCard 
                  img="/team-ai-2.png"
-                 role="FOUNDER & CEO"
+                 role="CO-FOUNDER & CHIEF BUSINESS OFFICER (CBO)"
                  name="Mahebub Sheikh"
                  email="shaikh@thronixai.com"
-                 desc="Leading thronix AI with a focus on AI-powered industrial asset monitoring, safety-first architecture, and real-world deployment in demanding oil & gas environments."
+                 desc="Leading Thronix AI with a focus on AI-powered industrial asset monitoring, safety-first architecture, and real-world deployment in demanding oil & gas environments."
                />
                <TeamMemberCard 
                  img="/team-ai-1.png"
-                 role="DIRECTOR"
+                 role="CO-FOUNDER & CHIEF EXECUTIVE OFFICER (CEO)"
                  name="Pooja Suryavanshi"
                  email="plsuryavanshi@thronixai.com"
-                 desc="Driving strategy and delivery for thronix AI — aligning product, operations, and client outcomes across industrial monitoring deployments."
+                 desc="Driving strategy and delivery for Thronix AI — aligning product, operations, and client outcomes across industrial monitoring deployments."
                />
                <TeamMemberCard 
                  img="/team-ai-3.png"
@@ -192,7 +192,7 @@ function TeamMemberCard({ img, role, name, desc, email }: TeamMemberCardProps) {
       <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden mb-6 bg-gray-200 border border-black/5 shadow-sm">
         <Image src={img} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover transition-transform duration-700 group-hover:scale-105" alt={name} />
       </div>
-      <div className="text-[10px] font-mono font-bold tracking-widest uppercase text-gray-500 mb-3">{role}</div>
+      <div className="text-xs md:text-sm font-mono font-bold tracking-widest uppercase text-gray-500 mb-3">{role}</div>
       <div className="text-2xl font-light text-black mb-3">{name}</div>
       <div className="text-sm text-gray-600 font-light leading-relaxed mb-4 flex-1">{desc}</div>
       {email && (

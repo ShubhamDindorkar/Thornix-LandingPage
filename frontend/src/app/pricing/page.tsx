@@ -16,10 +16,10 @@ export default function Pricing() {
             containerClassName="mb-6 max-w-4xl mx-auto"
             textClassName="text-4xl md:text-5xl lg:text-7xl font-light tracking-tight text-black leading-tight"
           >
-            Scale with Confidence
+            Scale With Confidence
           </ScrollReveal>
           <ScrollReveal as="p" textClassName="text-lg md:text-xl text-gray-700 font-light max-w-2xl mx-auto leading-relaxed">
-            From focused pilot programs to full-scale regional deployment, thronix AI offers pricing models tailored to your operational footprint.
+            From focused pilot programs to full-scale regional deployment, Thronix AI offers pricing models tailored to your operational footprint.
           </ScrollReveal>
         </div>
       </section>
@@ -69,7 +69,7 @@ export default function Pricing() {
                 
                 <ul className="space-y-5 mb-10 flex-1">
                   <PricingFeature text="Full-scale fleet deployment" light={false} />
-                  <PricingFeature text="Multi-region profile management (incl. Niger / deep water)" light={false} />
+                  <PricingFeature text="Multi-region profile management (GCC & Niger / deep water)" light={false} />
                   <PricingFeature text="Enterprise-grade ingestion capacity" light={false} />
                   <PricingFeature text="Kafka integration for enterprise queueing" light={false} />
                   <PricingFeature text="Custom SLA & dedicated support" light={false} />

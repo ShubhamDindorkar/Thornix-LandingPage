@@ -35,7 +35,7 @@ export default function Contact() {
             containerClassName="mb-8"
             textClassName="text-5xl md:text-7xl font-light tracking-tight text-white leading-tight"
           >
-            Start the Conversation
+            Start The Conversation
           </ScrollReveal>
           <ScrollReveal as="p" textClassName="text-lg md:text-xl font-light text-white/70 max-w-2xl mx-auto leading-relaxed">
             We help operators secure their fields through AI-powered, safety-first intelligence — AI recommends, humans decide.
@@ -50,7 +50,7 @@ export default function Contact() {
             
             <div className="flex-1 md:pr-12">
               <ScrollReveal as="h2" textClassName="text-4xl md:text-5xl font-light leading-tight text-black">
-                Reach out to our team and we&apos;ll respond ASAP.
+                Reach Out To Our Team And We&apos;ll Respond ASAP.
               </ScrollReveal>
             </div>
             
@@ -81,7 +81,7 @@ export default function Contact() {
                 [LEAVE A MESSAGE]
               </ScrollReveal>
               <ScrollReveal as="h2" textClassName="text-3xl md:text-4xl font-light leading-tight mb-12 text-black">
-                Send us a direct message
+                Send Us A Direct Message
               </ScrollReveal>
 
               {status === 'success' ? (

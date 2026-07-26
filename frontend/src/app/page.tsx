@@ -35,7 +35,7 @@ export default function Home() {
             containerClassName="max-w-4xl mb-6"
             textClassName="text-3xl md:text-5xl lg:text-6xl font-light tracking-tight text-white"
           >
-            Prevent catastrophic failures before they happen.
+            Prevent Catastrophic Failures Before They Happen.
           </ScrollReveal>
           <div className="flex flex-col sm:flex-row items-center gap-4">
             <Link
@@ -56,7 +56,7 @@ export default function Home() {
         {/* Glass Box Info */}
         <div className="absolute bottom-6 left-6 md:bottom-10 md:left-10 z-20 max-w-[calc(100%-3rem)] md:max-w-sm p-5 rounded-2xl border border-white/20 bg-black/40 backdrop-blur-md block">
           <p className="text-sm md:text-base text-white/90 font-light leading-relaxed">
-            thronix AI ingests high-frequency telemetry from wellhead sensors, runs an AI-driven multi-tier anomaly detection engine against safety thresholds, and broadcasts actionable alerts within seconds.
+            Thronix AI ingests high-frequency telemetry from wellhead sensors, runs an AI-driven multi-tier anomaly detection engine against safety thresholds, and broadcasts actionable alerts within seconds.
           </p>
         </div>
 
@@ -98,7 +98,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Challenges — Niger / deep water */}
+      {/* Challenges — GCC fields + Niger deep water */}
       <section id="the-hardest-place" className="w-full py-10 md:py-14 bg-[#f7f9fc] border-b border-gray-200">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row justify-between items-start gap-4 lg:gap-8 mb-8 md:mb-12 max-w-6xl mx-auto">
@@ -112,43 +112,50 @@ export default function Home() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black"
                >
-                 Proven where deep water leaves no margin for error.
+                 The Hardest Place On Earth To Keep A Well Honest.
                </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
-                 A client operates in Niger deep-water wells. thronix AI frameworks and datasets pass region-specific parameters — high-GOR profiles, hydrate risk, and offshore integrity — so monitoring matches the field, not a generic model.
+                 GCC oil &amp; gas fields run thousands of wells through conditions that break ordinary monitoring systems. A client also operates in Niger deep-water wells — Thronix AI frameworks and datasets pass region-specific parameters so monitoring matches the field, not a generic model.
                </p>
             </div>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-6xl mx-auto">
             <FeatureCardLight 
-              title="Niger deep water" 
-              description="Offshore depth, remote ops, and high-stakes integrity — every false calm and every real kick must be separated." 
+              title="Shamal Dust Storms" 
+              description="40-60+ km/h winds, sub-200 m visibility: sensors degrade, comms drop." 
               icon={
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z"></path></svg>
               } 
             />
             <FeatureCardLight 
-              title="High-GOR & hydrate risk" 
-              description="Elevated gas ratios and hydrate formation need baselines tuned per well — not fixed global thresholds." 
+              title="Extreme Heat & Sour Gas" 
+              description="50 °C heat kills gas detectors; high H₂S means errors cost lives." 
               icon={
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
               } 
             />
             <FeatureCardLight 
-              title="Sand, water & gas mix" 
-              description="Sand erodes equipment; water and gas come up mixed with the oil — composition must be inferred, not assumed." 
+              title="Sand & Water" 
+              description="Sand erodes equipment; water and gas come up mixed with the oil." 
               icon={
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4"></path></svg>
               } 
             />
             <FeatureCardLight 
-              title="Sensors that lie" 
-              description="Suspect sensors are common offshore — most 'alarms' are bad data, not bad wells. Validate before you trust." 
+              title="Sensors That Lie" 
+              description="30–50% of sensors can be suspect at once — most 'alarms' are bad data, not bad wells." 
               icon={
                 <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 8v4m0 4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+              } 
+            />
+            <FeatureCardLight 
+              title="Niger Deep Water" 
+              description="Offshore depth, remote ops, and high-stakes integrity — high-GOR profiles, hydrate risk, and every real kick must be separated from false calm." 
+              icon={
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 104 0 2 2 0 012-2h1.064M15 20.488V18a2 2 0 012-2h3.064M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
               } 
             />
           </div>
@@ -169,7 +176,7 @@ export default function Home() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black"
                >
-                 Raw signals in, ranked decisions out.
+                 Raw Signals In, Ranked Decisions Out.
                </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
@@ -225,7 +232,7 @@ export default function Home() {
                 enableBlur={true}
                 textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black"
               >
-                AI recommends, human decides.
+                AI Recommends, Human Decides.
               </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
@@ -265,34 +272,34 @@ export default function Home() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black"
                >
-                 Why thronix AI earns those marks.
+                 Why Thronix AI Earns Those Marks.
                </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
-                  The framework&apos;s deepest design investment is the part that matters most in Niger deep-water operations — and the part most platforms treat as an afterthought.
+                  The framework&apos;s deepest design investment is the part that matters most in GCC fields and Niger deep-water operations — and the part most platforms treat as an afterthought.
                </p>
             </div>
           </div>
           <div className="flex flex-col md:flex-row w-full h-auto md:h-[480px] gap-4 max-w-6xl mx-auto">
             {[
               {
-                title: "Safety as architecture",
+                title: "Safety As Architecture",
                 desc: "H₂S, integrity & pressure alarms are constitutional: no learning loop, mode, or grace window can ever silence them.",
                 img: "/5.jpg"
               },
               {
-                title: "Antifragile by design",
+                title: "Antifragile By Design",
                 desc: "Split degradation modes, edge survival during comms loss, and a SAFE CORE that runs whole even when everything else is pruned.",
                 img: "/6.jpg"
               },
               {
-                title: "Fleet-aware reasoning",
+                title: "Fleet-Aware Reasoning",
                 desc: "Cross-well graph intelligence separates a real well event from weather, a manifold problem, or coordinated sabotage.",
                 img: "/7.jpg"
               },
               {
-                title: "Honest intelligence",
+                title: "Honest Intelligence",
                 desc: "Calibrated confidence on every output, counterfactual explanations, and a human signature on every irreversible action.",
                 img: "/8.jpg"
               }
@@ -335,7 +342,7 @@ export default function Home() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight"
                >
-                 Expanding beyond the wellhead.
+                 Expanding Beyond The Wellhead.
                </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
@@ -346,23 +353,23 @@ export default function Home() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <UpcomingCard
-              title="Smart power grid"
+              title="Smart Power Grid"
               description="Monitoring and power redirect — early anomaly detection across grid assets, with human approval on redirect actions."
             />
             <UpcomingCard
-              title="Security surveillance"
+              title="Security Surveillance"
               description="AI-assisted threat spotting from camera and sensor feeds — recommendations only, operators stay in control."
             />
             <UpcomingCard
-              title="SCADA systems monitoring"
+              title="SCADA Systems Monitoring"
               description="Layer AI validation and ranked alerts on existing SCADA — reduce floods, surface what matters."
             />
             <UpcomingCard
-              title="Smart parking"
+              title="Smart Parking"
               description="Occupancy, flow, and anomaly insight for parking infrastructure — advisory intelligence at city scale."
             />
             <UpcomingCard
-              title="Customised AI software"
+              title="Customised AI Software"
               description="Bespoke AI software solutions tailored to your operational data, constraints, and decision workflows."
             />
           </div>
@@ -379,10 +386,10 @@ export default function Home() {
             containerClassName="mb-4 max-w-3xl"
             textClassName="text-3xl md:text-5xl font-light tracking-tight text-black"
           >
-            Built to survive the worst day in the field.
+            Built To Survive The Worst Day In The Field.
           </ScrollReveal>
           <p className="text-lg text-gray-700 font-light max-w-2xl mx-auto mb-8">
-            Let&apos;s run thronix AI against your toughest well data and show you the numbers honestly.
+            Let&apos;s run Thronix AI against your toughest well data and show you the numbers honestly.
           </p>
           <Link
             href="/contact"
@@ -411,7 +418,7 @@ function FeatureCardLight({ title, description, icon }: { title: string, descrip
 function UpcomingCard({ title, description }: { title: string, description: string }) {
   return (
     <div className="flex flex-col border border-white/10 rounded-2xl p-6 bg-white/5 hover:bg-white/10 transition-colors">
-      <div className="text-[10px] font-mono font-bold tracking-widest uppercase text-[#2b7fff] mb-3">Coming soon</div>
+      <div className="text-[10px] font-mono font-bold tracking-widest uppercase text-[#2b7fff] mb-3">Coming Soon</div>
       <ScrollReveal as="h3" textClassName="text-xl font-light text-white mb-3">{title}</ScrollReveal>
       <p className="text-white/70 font-light leading-relaxed text-sm">{description}</p>
     </div>
