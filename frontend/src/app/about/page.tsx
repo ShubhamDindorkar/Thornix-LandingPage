@@ -136,14 +136,14 @@ export default function About() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
                <TeamMemberCard 
                  img="/team-ai-2.png"
-                 role="CO-FOUNDER & CHIEF BUSINESS OFFICER (CBO)"
+                 role="CO-FOUNDER & CHIEF EXECUTIVE OFFICER (CEO)"
                  name="Mahebub Sheikh"
                  email="shaikh@thronixai.com"
                  desc="Leading Thronix AI with a focus on AI-powered industrial asset monitoring, safety-first architecture, and real-world deployment in demanding oil & gas environments."
                />
                <TeamMemberCard 
                  img="/team-ai-1.png"
-                 role="CO-FOUNDER & CHIEF EXECUTIVE OFFICER (CEO)"
+                 role="CO-FOUNDER & CHIEF OPERATING OFFICER (COO)"
                  name="Pooja Suryavanshi"
                  email="plsuryavanshi@thronixai.com"
                  desc="Driving strategy and delivery for Thronix AI — aligning product, operations, and client outcomes across industrial monitoring deployments."
