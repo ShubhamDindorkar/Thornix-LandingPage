@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
-                 GCC oil &amp; gas fields run thousands of wells through dust, heat, and sour gas that break ordinary monitoring. Niger deep water is just as unforgiving — offshore depth, high-GOR, and hydrate risk where a missed kick costs everything. thronix AI is built to operate in both, with frameworks and datasets that pass region-specific parameters so monitoring matches the field.
+                 GCC oil &amp; gas fields run thousands of wells through dust, heat, and sour gas that break ordinary monitoring. Niger deep water is just as unforgiving — offshore depth, high-GOR, and hydrate risk where a missed kick costs everything. Thronix AI is built to operate in both, with frameworks and datasets that pass region-specific parameters so monitoring matches the field.
                </p>
             </div>
           </div>
