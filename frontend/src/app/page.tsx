@@ -117,7 +117,7 @@ export default function Home() {
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
                <p className="text-base md:text-lg text-gray-700 font-light leading-relaxed">
-                 GCC oil &amp; gas fields run thousands of wells through conditions that break ordinary monitoring systems. A client also operates in Niger deep-water wells — Thronix AI frameworks and datasets pass region-specific parameters so monitoring matches the field, not a generic model.
+                 GCC oil &amp; gas fields run thousands of wells through dust, heat, and sour gas that break ordinary monitoring. Niger deep water is just as unforgiving — offshore depth, high-GOR, and hydrate risk where a missed kick costs everything. thronix AI is built to operate in both, with frameworks and datasets that pass region-specific parameters so monitoring matches the field.
                </p>
             </div>
           </div>
@@ -176,7 +176,7 @@ export default function Home() {
                  enableBlur={true}
                  textClassName="text-3xl md:text-4xl lg:text-5xl font-light tracking-tight text-black"
                >
-                 Raw Signals In, Ranked Decisions Out.
+                 Raw Signals In, Predicted Decisions Out.
                </ScrollReveal>
             </div>
             <div className="w-full lg:w-1/3 lg:pt-8">
@@ -206,11 +206,11 @@ export default function Home() {
               </FadeIn>
               
               <FadeIn delay={0.6} className="w-full lg:flex-1 flex justify-center z-10 relative">
-                <WorkflowCard step="04" title="DECIDE" desc="AI ranks by danger, cross-checks neighbours, prevent alarm floods" img="/3.jpg" />
+                <WorkflowCard step="04" title="DECIDE" desc="AI predicts danger, cross-checks neighbours, prevent alarm floods" img="/3.jpg" />
               </FadeIn>
               
               <FadeIn delay={0.8} className="w-full lg:flex-1 flex justify-center z-10 relative">
-                <WorkflowCard step="05" title="OUTPUTS" desc="Ranked, explained, actionable alerts + recommendations" img="/4.jpg" />
+                <WorkflowCard step="05" title="OUTPUTS" desc="Predicted, explained, actionable alerts + recommendations" img="/4.jpg" />
               </FadeIn>
               
             </div>
@@ -362,7 +362,7 @@ export default function Home() {
             />
             <UpcomingCard
               title="SCADA Systems Monitoring"
-              description="Layer AI validation and ranked alerts on existing SCADA — reduce floods, surface what matters."
+              description="Layer AI validation and predicted alerts on existing SCADA — reduce floods, surface what matters."
             />
             <UpcomingCard
               title="Smart Parking"
