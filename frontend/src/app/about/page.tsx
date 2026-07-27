@@ -133,32 +133,20 @@ export default function About() {
             </div>
 
             {/* Grid Area */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 lg:gap-12 max-w-3xl mx-auto">
                <TeamMemberCard 
-                 img="/team-ai-2.png"
+                 img="/mahebub-sheikh.png"
                  role="CO-FOUNDER & CHIEF EXECUTIVE OFFICER (CEO)"
                  name="Mahebub Sheikh"
                  email="shaikh@thronixai.com"
                  desc="Leading Thronix AI with a focus on AI-powered industrial asset monitoring, safety-first architecture, and real-world deployment in demanding oil & gas environments."
                />
                <TeamMemberCard 
-                 img="/team-ai-1.png"
+                 img="/pooja-suryavanshi.png"
                  role="CO-FOUNDER & CHIEF OPERATING OFFICER (COO)"
                  name="Pooja Suryavanshi"
                  email="plsuryavanshi@thronixai.com"
                  desc="Driving strategy and delivery for Thronix AI — aligning product, operations, and client outcomes across industrial monitoring deployments."
-               />
-               <TeamMemberCard 
-                 img="/team-ai-3.png"
-                 role="CHIEF OF OPERATIONS"
-                 name="Luca Morrison"
-                 desc="Luca designs data ecosystems that unify supply chain insight, real-time reporting, and predictive analytics—turning messy systems into actionable intelligence."
-               />
-               <TeamMemberCard 
-                 img="/team-ai-4.png"
-                 role="SALES DIRECTOR"
-                 name="Sienna Rae"
-                 desc="Sienna guides clients from discovery through delivery, translating technical strategy into clear action across cross-functional teams and fast-moving operational environments."
                />
             </div>
          </div>
@@ -190,7 +178,7 @@ function TeamMemberCard({ img, role, name, desc, email }: TeamMemberCardProps) {
   return (
     <div className="flex flex-col group h-full">
       <div className="relative w-full aspect-[4/5] rounded-xl overflow-hidden mb-6 bg-gray-200 border border-black/5 shadow-sm">
-        <Image src={img} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover transition-transform duration-700 group-hover:scale-105" alt={name} />
+        <Image src={img} fill sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw" className="object-cover object-top transition-transform duration-700 group-hover:scale-105" alt={name} />
       </div>
       <div className="text-xs md:text-sm font-mono font-bold tracking-widest uppercase text-gray-500 mb-3">{role}</div>
       <div className="text-2xl font-light text-black mb-3">{name}</div>

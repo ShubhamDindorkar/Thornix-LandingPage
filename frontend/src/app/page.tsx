@@ -63,8 +63,8 @@ export default function Home() {
         {/* Speak with our team button */}
         <Link href="/contact" className="absolute bottom-6 right-6 md:bottom-10 md:right-10 z-20 flex items-center gap-4 md:gap-5 bg-white rounded-full p-2 pr-2 pl-2 shadow-xl transition-all hover:shadow-2xl hover:bg-[#f7f9fc] group hidden sm:flex">
           <div className="flex -space-x-4">
-            <Image className="w-12 h-12 rounded-full border-2 border-white object-cover group-hover:border-[#f7f9fc] transition-colors" src="/team-ai-1.png" alt="Team member" width={48} height={48} />
-            <Image className="w-12 h-12 rounded-full border-2 border-white object-cover group-hover:border-[#f7f9fc] transition-colors" src="/team-ai-2.png" alt="Team member" width={48} height={48} />
+            <Image className="w-12 h-12 rounded-full border-2 border-white object-cover group-hover:border-[#f7f9fc] transition-colors" src="/mahebub-sheikh.png" alt="Mahebub Sheikh" width={48} height={48} priority />
+            <Image className="w-12 h-12 rounded-full border-2 border-white object-cover group-hover:border-[#f7f9fc] transition-colors" src="/pooja-suryavanshi.png" alt="Pooja Suryavanshi" width={48} height={48} priority />
           </div>
           <span className="text-xs md:text-sm font-semibold tracking-widest text-black px-2">
             SPEAK WITH OUR TEAM
