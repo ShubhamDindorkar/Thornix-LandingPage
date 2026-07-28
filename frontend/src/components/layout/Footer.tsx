@@ -22,9 +22,13 @@ export default function Footer() {
             <h3 className="text-sm font-medium text-white">Company</h3>
             <Link href="/about" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">About Us</Link>
             <Link href="/about" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Our Team</Link>
+            <Link href="/contact" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Contact</Link>
           </div>
           <div className="flex flex-col space-y-3">
-            <h3 className="text-sm font-medium text-white">Legal</h3>
+            <h3 className="text-sm font-medium text-white">Support</h3>
+            <a href="mailto:support@thronix.com" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">
+              support@thronix.com
+            </a>
             <Link href="#" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Privacy Policy</Link>
             <Link href="#" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Terms of Service</Link>
           </div>

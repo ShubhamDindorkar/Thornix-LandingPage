@@ -119,7 +119,7 @@ export default function About() {
                    [LEADERSHIP]
                  </ScrollReveal>
                  <ScrollReveal as="h2" baseOpacity={0} enableBlur={true} textClassName="text-4xl md:text-5xl lg:text-6xl font-light tracking-tight text-black leading-tight">
-                   Our AI & Engineering Leadership.
+                   Thronix AI Leadership
                  </ScrollReveal>
                </div>
                <div className="md:w-1/2 md:pt-12">
