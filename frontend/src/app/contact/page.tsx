@@ -58,8 +58,8 @@ export default function Contact() {
               <div className="flex-1 bg-white text-black border border-black/10 p-10 rounded-3xl flex flex-col justify-between min-h-[220px] shadow-lg hover:-translate-y-1 transition-transform group">
                 <div>
                   <div className="text-xs font-mono tracking-widest uppercase mb-4 text-gray-400 group-hover:text-black transition-colors">HELP & SUPPORT</div>
-                  <a href="mailto:support@thronix.com" className="text-xl font-light mb-8 inline-block hover:text-[#2b7fff] transition-colors">
-                    support@thronix.com
+                  <a href="mailto:support@thronixai.com" className="text-xl font-light mb-8 inline-block hover:text-[#2b7fff] transition-colors">
+                    support@thronixai.com
                   </a>
                 </div>
                 <div className="text-sm font-light text-gray-500 leading-relaxed">
