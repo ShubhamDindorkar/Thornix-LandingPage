@@ -26,8 +26,8 @@ export default function Footer() {
           </div>
           <div className="flex flex-col space-y-3">
             <h3 className="text-sm font-medium text-white">Support</h3>
-            <a href="mailto:support@thronix.com" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">
-              support@thronix.com
+            <a href="mailto:support@thronixai.com" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">
+              support@thronixai.com
             </a>
             <Link href="#" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Privacy Policy</Link>
             <Link href="#" className="text-sm text-white/50 hover:text-[#2b7fff] transition-colors">Terms of Service</Link>
